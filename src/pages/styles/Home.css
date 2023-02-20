@@ -1,0 +1,79 @@
+/* General styles */
+* {
+
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Styles for the main shop container */
+  .shop {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    
+    padding: 20px;
+  }
+  
+  /* Styles for the shop title */
+  .shopTitle {
+   
+
+    justify-content: space-between;
+    align-items: center;
+    background-color: #232f3e;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  /* Styles for the ECOM STORE heading */
+  .shopTitle h1 {
+    font-size: 24px;
+    font-weight: bold;
+    
+  }
+  
+  /* Styles for the products container */
+  .products {
+    display: flex;
+    flex-direction: column;
+ 
+    gap: 20px;
+  }
+  
+  /* Styles for the product card */
+  .product {
+
+    padding: 10px;
+  }
+  
+  /* Styles for the product image */
+  .product img {
+    max-width: 100%;
+    height: auto;
+    margin-left:47%;
+    margin-top: 15px;
+    position: relative;
+  }
+  
+  /* Styles for the product title */
+  .product h2 {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  /* Styles for the product price */
+  .product p {
+    font-size: 14px;
+    color: white;
+    margin: 10px 0;
+  }
+  
+ .product .btn-p {
+    color: yellow;
+    border: 20px;
+    border-color: yellow;
+    border-radius: 10px;
+  }
+ .btn-p:hover{
+    color: #fff;
+    font-size:20px
+  }
